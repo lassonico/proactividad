@@ -1,0 +1,32 @@
+
+.hero{
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, #0000007e 0%, #0000007c 100% ), url('../img/bghero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (min-width: 768px){
+    .hero{
+        background-image: linear-gradient(135deg, #00000056 0%, #0000005d 100% ), url('../img/desktop.jpg');
+        height: 100vh;
+        background-position: center;
+        padding-left: 50px;
+        padding-right: 40%;
+        padding-top: 90px;
+        align-items: flex-start;
+    }
+}
+/* https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=600 */

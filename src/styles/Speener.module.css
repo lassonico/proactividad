@@ -1,0 +1,42 @@
+.contentSpeener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.speener {
+    display: block;
+    position: relative;
+    width: 66px;
+    height: 80px;
+    margin: 150px auto;
+  }
+  .speener div {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    width: 12px;
+    background: #29bbef;
+    animation: speener 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .speener div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .speener div:nth-child(2) {
+    left: 25px;
+    animation-delay: -0.12s;
+  }
+  .speener div:nth-child(3) {
+    left: 42px;
+    animation-delay: 0;
+  }
+  @keyframes speener {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }

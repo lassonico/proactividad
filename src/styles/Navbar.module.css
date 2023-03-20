@@ -1,0 +1,113 @@
+.menuEntrada{
+    animation: entrada .8s ease-in-out;
+}
+
+@keyframes entrada{
+    0%{
+        opacity: 0;
+        
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    right: 100%;
+    width: 100%;
+    padding: 100px 0;
+    background-color: #192a56e0;
+    backdrop-filter: blur(10px);
+    transition: all .4s ease;
+}
+.navbar a{
+    display: inline-block;
+    font-family: Lato;
+    color: #7ed6df;
+    cursor: pointer;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    margin: 12px 0;
+    font-size: 1.3rem/* 24px */;
+    line-height: 2rem/* 32px */;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease-in-out;
+}
+
+.navbar a:hover{
+    color: #ffc500;
+}
+.navbar .pathactive{
+    color: #ffc500;
+}
+@media (min-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: initial;
+        margin: 0 20px 0 0;
+        padding: 0;
+        background: transparent;
+        height: auto;
+        backdrop-filter: none;
+        transition: none;
+        animation: none;
+    }
+    .menuEntrada{
+        animation: none;
+    }
+    .navbar a{
+        border-bottom: none;
+        font-size: 1.2rem;
+        line-height: 1rem;
+        color: white;
+        width: auto;
+    }
+}
+
+.navbar.active{
+    right: 0;
+}
+
+.links{
+    animation-name: opasidad;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes opasidad{
+    0%{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    60%{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100%{   
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.colores {
+    background-color: transparent;
+    transition: background-color 1.5s ease-in-out;
+  }
+.scrolldown {
+    background-image: linear-gradient(to bottom right, #0c6c8e, #29bbef);
+    transition: background-color 1.5s ease-in-out;
+}
+
