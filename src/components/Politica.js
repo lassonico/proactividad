@@ -107,7 +107,7 @@ function Politica() {
         9. Informar a solicitud del titular sobre el uso dado a sus datos.
         10. Actualizar la información, atendiendo de esta forma todas las novedades respecto de los datos del titular, dentro de los 5 días hábiles siguientes al recibo de la novedad. Adicionalmente, se deberán implementar todas las medidas necesarias para que la información se mantenga actualizada.
         11. Tramitar las consultas y reclamos formulados por los titulares.
-        12. Registrar en la base de datos la leyenda "reclamo en trámite" dentro de los dos días hábiles siguientes a la recepción del reclamo completo.
+        12. Registrar en la base de datos la leyenda 'reclamo en trámite' dentro de los dos días hábiles siguientes a la recepción del reclamo completo.
         13. Rectificar la información cuando sea incorrecta y comunicar lo pertinente.
         14. Cumplir los requerimientos e instrucciones que imparta la Superintendencia de Industria y Comercio sobre el tema en particular.
         15. Identificar cuando determinada información se encuentra en discusión por parte del titular.
