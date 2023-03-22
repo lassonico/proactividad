@@ -6,6 +6,7 @@ const Contacto = () => {
     <>
       <Layout
         title="Contacto"
+        description="Credito de libranzas para pensionados y empleados oficiales | Contáctanos para brindarte toda la informacion"
       >
         <section className="md:flex-row md:items-center flex flex-col gap-5 md:gap-10 md:w-full px-5">
           <div className="md:w-1/2" id="contacto">

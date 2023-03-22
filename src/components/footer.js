@@ -20,7 +20,7 @@ function Footer() {
               <p className='text-center text-white text-xl font-normal mb-0 leading-none'>Email</p>
               <p className='text-slate-100 text-center text-lg font-light mb-5'>contacto@proactivosoluciones.com</p>
               <p className='text-center text-white text-xl font-normal mb-0 leading-none'>Horario de atención</p>
-              <p className='text-slate-100 text-center text-lg font-light mb-5'>lunes a vierne de 8:00AM a 4:00PM</p>
+              <p className='text-slate-100 text-center text-lg font-light mb-5'>lunes a viernes de 8:00AM a 4:00PM</p>
             </div>
             <div>
               <h3 className='text-[#7ed6df] text-center text-3xl my-9 md:mt-0'>Legales</h3>

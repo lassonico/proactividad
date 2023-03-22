@@ -4,6 +4,7 @@ const Nosotros = () => {
     <>
       <Layout
         title="Nosotros"
+        description="Credito de libranzas para pensionados y empleados oficiales | Aquí te contamos nuestra historia"
       > 
       <section className="md:flex-row md:items-center flex flex-col gap-5 md:gap-10 md:w-full px-5">
         <div className="md:w-1/2">
