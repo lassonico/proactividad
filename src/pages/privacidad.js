@@ -1,5 +1,5 @@
 import Layout from "../components/layout"
-import Politica from "../components/Politica"
+import Politica from "../components/politica"
 
 const Privacidad = () => {
   return (
