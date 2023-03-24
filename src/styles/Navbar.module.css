@@ -107,7 +107,7 @@
     transition: background-color 1.5s ease-in-out;
   }
 .scrolldown {
-    background-image: linear-gradient(to bottom right, #0c6c8e, #29bbef);
+    background-image: linear-gradient(to bottom, #0c6c8e, #29bbef);
     transition: background-color 1.5s ease-in-out;
 }
 
