@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react'
 import { formatearMoneda } from '../utils/formatos.js'
-// import Btn from './Btn.jsx'
 import BtnSimulador from './BtnSimulador.js'
-import Errormessage from './Errormessage.js';
+import Errormessage from './Errormessage.js'
 
 
 export default function Simular() {
 
-    const [ monto, setMonto ] = useState(15000000);
-    const [ plazo, setPlazo ] = useState(24);
+    const [ monto, setMonto ] = useState(5000000);
+    const [ plazo, setPlazo ] = useState(180);
     const [ cuota, setCuota ] = useState(0);
     const [ error, setError ] = useState('')
 
@@ -20,14 +19,14 @@ export default function Simular() {
     const min = 5000000;  
     const max = 150000000;  
     const rango = 1000000;
-    const plazomin = 12
-    const plazomax = 180
-    const rangoplazo = 12
-    const tasa = 1.912
+    const plazomin = 12;
+    const plazomax = 180;
+    const rangoplazo = 6;
+    const tasa = 2.1
 
     const restar = () => {
         if(monto <= min){
-            setError('Monto mínimo alcanzado')
+            setError('Monto mínimo!')
             setTimeout(() => {
                 setError('')
             }, 3000);
@@ -38,7 +37,7 @@ export default function Simular() {
 
     const sumar = () => {
         if(monto >= max){
-            setError('Monto máximo alcanzado')
+            setError('Monto máximo!')
             setTimeout(() => {
                 setError('')
             }, 3000);
@@ -49,7 +48,7 @@ export default function Simular() {
 
     const disminuirplazo = () => {
         if(plazo <= rangoplazo){
-            setError('Plazo mínimo alcanzado')
+            setError('Plazo mínimo!')
             setTimeout(() => {
                 setError('')
             }, 3000);
@@ -60,7 +59,7 @@ export default function Simular() {
 
     const aumentaplazo = () => {
         if(plazo >= 180){
-            setError('Plazo máximo alcanzado')
+            setError('Plazo máximo!')
             setTimeout(() => {
                 setError('')
             }, 3000);
