@@ -13,8 +13,8 @@ export default function Home() {
         description="Credito de libranzas para pensionados y empleados oficiales"
       >
       <main className="flex items-center justify-center overflow-y-scroll" >
-        <div className={` ${style.hero}`} >
-            <h1 className="entrada text-[2.4rem] md:text-5xl xl:text-7xl font-black text-white text-left">Solicita tu crédito de libranza sin importar reportes en centrales!</h1>
+        <div className={`${style.hero}`} >
+            <h1 className="entrada font-hero text-[2.2rem] md:text-4xl xl:text-6xl font-bold md:font-black text-white text-left">Solicita tu crédito de libranza sin importar reportes en centrales!</h1>
             <p className="entrada font-light text-3xl mt-3 text-left text-pro-yellow">Cómodos plazos y aprobación oportuna</p>
             <div className="entrada md:my-0 mb-10 md:mx-0">
                 <Btn />

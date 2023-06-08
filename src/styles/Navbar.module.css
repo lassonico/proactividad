@@ -25,20 +25,19 @@
     left: 100%;
     width: 100%;
     padding: 130px 0px;
-    background-color: #192a56e0;
+    background-color: #0c6b8ee8;
     backdrop-filter: blur(10px);
     transition: all .5s ease;
 }
 .navbar a{
     display: inline-block;
-    font-family: Lato;
-    color: #7ed6df;
+    color: white;
     cursor: pointer;
-    padding: 12px 25px 12px 0;
-    text-align: right;
-    font-weight: 600;
+    padding: 12px 25px 12px 30px;
+    text-align: left;
+    font-weight: 400;
     margin: 12px 0;
-    font-size: 1.3rem/* 24px */;
+    font-size: 1.5rem/* 24px */;
     line-height: 2rem/* 32px */;
     width: 100%;
     height: auto;
@@ -71,6 +70,7 @@
         border-bottom: none;
         font-size: 1.2rem;
         line-height: 1rem;
+        margin: 0;
         color: white;
         width: auto;
     }
@@ -109,4 +109,3 @@
     background-image: linear-gradient(to bottom, #0c6c8e, #29bbef);
     transition: background-color 1.5s ease-in-out;
 }
-

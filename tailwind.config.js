@@ -23,7 +23,7 @@ module.exports = {
     },
     fontFamily: { 
       body : ['Josefin Sans'],
-      hero : ['Lato']
+      hero : ['Monserrat', 'sans-serif']
     },
   },
   plugins: [],

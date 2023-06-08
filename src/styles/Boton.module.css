@@ -14,10 +14,10 @@
     all: unset;
     display: block;
     background-color: #ffff;
-    height: 3px;
+    height: 2px;
     width: 25px;
-    margin: 5px auto;
-    border-radius: 2px;
+    margin: 6px auto;
+    border-radius: 1.5px;
     transition: all .5s ease-in-out;
     outline: none;
 }
