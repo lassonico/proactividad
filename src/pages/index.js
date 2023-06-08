@@ -3,6 +3,8 @@ import Btn from "../components/Btn"
 import Layout from "../components/layout"
 import style from "../styles/Hero.module.css"
 import Bigcons from "../components/Bigcons"
+import Simulador from "./simulador"
+import Simular from "@/components/Simulador"
 
 export default function Home() {
   
@@ -14,7 +16,7 @@ export default function Home() {
       >
       <main className="flex items-center justify-center overflow-y-scroll" >
         <div className={`${style.hero}`} >
-            <h1 className="entrada font-hero text-[2.1rem] md:text-4xl xl:text-6xl font-black md:font-black text-white text-left">¡Solicita tu crédito de libranza sin importar reportes en centrales!</h1>
+            <h1 className="entrada font-hero text-[2.1rem] md:text-4xl xl:text-6xl font-black text-white text-left">¡Solicita tu crédito de libranza sin importar reportes en centrales!</h1>
             <p className="entrada font-light text-3xl mt-3 text-left text-pro-yellow">Cómodos plazos y aprobación oportuna</p>
             <div className="entrada md:my-0 mb-10 md:mx-0">
                 <Btn />
@@ -29,6 +31,9 @@ export default function Home() {
       </div>
       <div className="my-20">
         <Bigcons />
+      </div>
+      <div className="my-20 mx-5 md:mx-auto md:w-1/3">
+        < Simular/>
       </div>
       </Layout>
     </>
