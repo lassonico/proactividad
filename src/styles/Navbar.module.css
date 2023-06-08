@@ -18,24 +18,24 @@
 .navbar{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     position: fixed;
     top: 0;
     height: 100%;
-    right: 100%;
+    left: 100%;
     width: 100%;
-    padding: 100px 0;
+    padding: 130px 0px;
     background-color: #192a56e0;
     backdrop-filter: blur(10px);
-    transition: all .4s ease;
+    transition: all .5s ease;
 }
 .navbar a{
     display: inline-block;
     font-family: Lato;
     color: #7ed6df;
     cursor: pointer;
-    padding: 12px;
-    text-align: left;
+    padding: 12px 25px 12px 0;
+    text-align: right;
     font-weight: 600;
     margin: 12px 0;
     font-size: 1.3rem/* 24px */;
@@ -44,7 +44,6 @@
     height: auto;
     transition: all .5s ease-in-out;
 }
-
 .navbar a:hover{
     color: #ffc500;
 }
@@ -78,23 +77,23 @@
 }
 
 .navbar.active{
-    right: 0;
+    left: 0;
 }
 
 .links{
     animation-name: opasidad;
-    animation-duration: .5s;
+    animation-duration: .7s;
     animation-timing-function: ease-in-out;
 }
 
 @keyframes opasidad{
     0%{
         opacity: 0;
-        transform: translateX(-30px);
+        transform: translateX(30px);
     }
     60%{
         opacity: 0;
-        transform: translateX(-30px);
+        transform: translateX(30px);
     }
     100%{   
         opacity: 1;

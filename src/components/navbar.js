@@ -85,9 +85,9 @@ const Navbar = () => {
                 className={`${ arrows ? styles.links : styles.linksEnd }`}
               >Inicio
               </Link>
-              <div className={`md:hidden border-t-[1px] border-[#7ed6df] ${ arrows ? styles.links : styles.linksEnd }`}>
-                <IconsRRSS justify={`justify-start`} />
-              </div>
+              {/* <div className={`md:hidden border-t-[1px] border-[#7ed6df] ${ arrows ? styles.links : styles.linksEnd }`}>
+                <IconsRRSS justify={`justify-center`} />
+              </div> */}
             </div>
           </nav>
         </section>

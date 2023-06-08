@@ -14,9 +14,9 @@ export default function Home() {
       >
       <main className="flex items-center justify-center overflow-y-scroll" >
         <div className={` ${style.hero}`} >
-            <h1 className="entrada font-hero text-[2.4rem] md:text-5xl xl:text-7xl font-black text-white text-center md:text-left">Solicita tu crédito de libranza sin importar reportes en centrales!</h1>
-            <p className="entrada font-light text-3xl mt-3 text-center text-pro-yellow">Cómodos plazos y aprobación oportuna</p>
-            <div className="entrada md:my-0 mb-10 md:mx-0 mx-auto">
+            <h1 className="entrada text-[2.4rem] md:text-5xl xl:text-7xl font-black text-white text-left">Solicita tu crédito de libranza sin importar reportes en centrales!</h1>
+            <p className="entrada font-light text-3xl mt-3 text-left text-pro-yellow">Cómodos plazos y aprobación oportuna</p>
+            <div className="entrada md:my-0 mb-10 md:mx-0">
                 <Btn />
             </div>
             <svg className="w-full absolute bottom-[-2px] md:hidden left-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
