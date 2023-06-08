@@ -38,7 +38,7 @@ const Navbar = () => {
           <nav className='md:h-10 md:py-10 md:flex md:justify-between items-center w-full' >
             <div className='flex justify-between items-center'>
               <div onClick={handleClick} className="flex items-center justify-center fixed top-0 left-0 md:relative mt-1 md:mt-0 z-[100] ">
-                <Link href="/" className='mt-[6px] md:mt-0 flex flex-row items-center w-[30vw]'>
+                <Link href="/" className='mt-[6px] md:mt-0 flex flex-row items-center w-full md:w-[30vw]'>
                   <Image src={flor} sizes="" className="w-[30px] md:w-[40px]" alt="Imagen logotipo"/>
                   <Image src={logo} sizes="" className="w-[150px] md:w-[180px]" alt="Imagen texto del logotipo"/>
                 </Link>
